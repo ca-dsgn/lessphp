@@ -45,6 +45,7 @@ class lessc {
     public $env;
     public $scope;
     public $formatter;
+    public $formatterName;
 
     static public $VERSION = "v0.8.0";
 
