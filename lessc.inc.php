@@ -3786,6 +3786,7 @@ class lessc_parser {
 
 class lessc_formatter_classic {
     public $indentChar = "  ";
+    public int $indentLevel;
 
     public $break = "\n";
     public $open = " {";
